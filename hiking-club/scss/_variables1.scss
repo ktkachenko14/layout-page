@@ -1,0 +1,24 @@
+$contentBackground: #fff;
+$imageBackground: url("../img/m-h-day.jpg");
+$colorText: #2C2F3C;
+$textBackground: #14A0C7;
+$cardBackground: #21232E;
+$backgroundSection: linear-gradient(to right, #679708 0%, #315fcc 100%);
+$greyText: #767985;
+$linkDecoration: underline;
+$buttonColor: #699900;
+$colors: (
+    whiteColor: white
+);
+@mixin button-border($radius:5px){
+    border-radius: $radius;
+}
+@mixin linkParameters( $color) {
+    color: $color;
+}
+.colorBack {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    background-color: $textBackground;
+}

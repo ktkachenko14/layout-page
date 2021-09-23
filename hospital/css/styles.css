@@ -1,0 +1,858 @@
+/*
+* Colors used in design.
+*   primary: #0078aa;
+*   dark: #363636;
+*   light: #fff;
+*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button-scroll{
+  right: 5%;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+
+
+}
+@media screen and (max-width: 767px){
+  header{
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navigation{
+    margin: 1%;
+  }
+
+  .navigation a{
+    display: inline-block;
+    color: #363636;
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+  }
+
+  .navigation a:hover{
+    color: #0078aa;
+  }
+
+  .header-info{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/header_bg.jpg');
+    border-radius: 0 0 38%;
+    display: block;
+    height: 750px;
+    margin-top: 4%;
+    
+  }
+
+  .header-info h3{
+    width: 35%;
+    text-align: center;
+    padding-top: 20%;
+    font-size: 30px;
+    padding-left: 5%;
+  }
+   
+ .header-icons{
+   display: flex;
+   padding-left: 5%;
+ }
+
+
+  .header-info p{
+    width: 50%;
+  }
+
+
+  .header-button{
+    margin-left: 5%;
+    width: 50px;
+    height: 50px;
+    background-color: #0078aa;
+    border-radius: 50%;
+    border-color: #0078aa;
+  }
+  .fa-w-16{
+    padding-top: 10%;
+    height: 80%;
+    width: 80%;
+    color: #fff;
+  }
+
+  .about{
+    display: inline;
+    padding-left: 10px;
+    padding-bottom: 5%;
+    text-align: center;
+  }
+
+  
+  .about h4{
+    padding-top: 3%;
+    font-size: 25px;
+    
+    
+  }
+
+  .about-info{
+    list-style: none;
+  }
+
+  .about-title{
+    color: #0078aa;
+  }
+
+  .icon-arrow{
+    color: #0078aa;
+  }
+
+  .section-title{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .sub-info{
+    
+    text-align: center;
+  }
+
+  .icon-title{
+    font-size: 13px;
+  }
+
+  .servise{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/services_bg.jpg');
+    
+  }
+
+  .service-title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5%;
+    padding-top: 5%;
+  }
+
+  .service-sub, .pricing-sub{
+    text-align: center;
+    margin-top: -15px;
+  }
+
+  .service-item{
+    width: 100%;
+    background-color: #fff;
+    padding: 2%;
+    margin-top: 2%;
+  }
+
+  .service-block{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+    justify-content: space-around;
+    padding-bottom: 5%;
+  }
+
+  .offers{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/pricing_bg.jpg');
+    
+  }
+
+  .pricing-title{
+    text-align: center;
+    font-size: 30px;
+
+  }
+
+  .offers-block{
+    display: block;
+    justify-content: center;
+    margin-top: 5%;
+    padding-bottom: 10%;
+    margin: 5%;
+  }
+  .offer-item{
+    text-align: center;
+    width: 90%;
+    background-color: #4ed5f7;
+    color: #fff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 5%;
+  }
+ 
+  .offer-item-title{
+    font-size: 20px;
+  }
+
+  .offer-item-price{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -15px;
+  }
+
+  .offer-item-button{
+    text-align: center;
+    background-color: #fff;
+    color: #0078aa;
+    border: 2px solid #0078aa;
+    height: 40px;
+    width: 20%;
+    border-radius: 20%;
+    font-weight: bold;
+  }
+
+  .offer-item-button:hover{
+    background-color: #0078aa;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+
+  .offer-item-white{
+    text-align: center;
+    width: 90%;
+    background-color: #fff;
+    color: #0078aa;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 3px solid #0078aa;
+    margin: 5%;
+  }
+
+  .contact{
+    display: block;
+    
+    
+  }
+
+  .contact-form{
+    padding: 5%;
+    margin-top: 3%;
+    text-align: center;
+  }
+    
+  
+
+  .form-item{
+    line-height: 30px;
+    width: 180%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 5%;
+  }
+
+  .form-button{
+    text-align: center;
+    background-color: #0078aa;
+    color: #fff;
+    border: 2px solid #0078aa;
+    height: 40px;
+    width: 35%;
+    border-radius: 20%;
+    font-weight: bold;
+    margin: 3%;
+  }
+
+  .form-button:hover{
+    background-color: #fff;
+    color: #0078aa;
+    
+  }
+
+  footer{
+    background-color: #363636;
+    text-align: center;
+    color: #fff;
+    padding: 1%;
+  }
+}
+
+@media screen and (min-width: 768px){
+  body{
+    min-width: 768px;
+  }
+  .branding{
+    margin: 1%;
+    }
+  
+    .navigation{
+      margin: 1%;
+      float: right;
+    }
+  
+    .navigation a{
+      display: inline-block;
+      color: #363636;
+      text-decoration: none;
+      position: relative;
+      padding: 10px;
+    }
+  
+    .navigation a:hover{
+      color: #0078aa;
+    }
+  
+    
+  
+    .header-menu{
+      height: 50px;
+      background-color: #fff;
+      width: 100%;
+      position: fixed;
+      overflow: hidden;
+      top: 0;
+      display: block;
+    }
+  
+    
+   
+    .header-info{
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-image: url('../img/header_bg.jpg');
+      border-radius: 0 0 38%;
+      display: block;
+      height: 750px;
+      
+      margin-top: 4%;
+      
+    }
+  
+    .header-info h3{
+      width: 50%;
+      text-align: left;
+      padding-top: 20%;
+      font-size: 30px;
+    }
+     
+    
+  
+    .header-info p{
+      
+      width: 70%;
+    }
+  
+  
+    .header-button{
+      width: 50px;
+      height: 50px;
+      background-color: #0078aa;
+      border-radius: 50%;
+      border-color: #0078aa;
+      margin-left: 2%;
+    }
+    .fa-w-16{
+      padding-top: 10%;
+      height: 80%;
+      width: 80%;
+      color: #fff;
+    }
+  
+    .header-button:hover{
+      background-color: #fff;
+      border-color: #0078aa;
+    }
+  
+    .fa-w-16:hover{
+      color: #0078aa;
+    }
+
+    .about{
+      display: flex;
+      padding-left: 10px;
+      padding-bottom: 5%;
+      
+    }
+  
+  
+    .about h4{
+      padding-top: 3%;
+      font-size: 25px;
+      text-align: center;
+    }
+  
+    .about-info{
+      list-style: none;
+      width: 100%;
+    }
+  
+    .about-title{
+      color: #0078aa;
+      
+    }
+  
+    .icon-arrow{
+      color: #0078aa;
+    }
+
+    .section-title{
+      font-size: 30px;
+      font-weight: bold;
+      
+    }
+  
+    .sub-info{
+      width: 100%;
+    }
+  
+    .icon-title{
+      font-size: 13px;
+    }
+  
+    .servise{
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-image: url('../img/services_bg.jpg');
+      
+    }
+  
+    .service-title{
+      text-align: center;
+      font-size: 30px;
+      margin-top: 5%;
+      padding-top: 5%;
+    }
+  
+    .service-sub, .pricing-sub{
+      text-align: center;
+      margin-top: -15px;
+    }
+  
+    .service-item{
+      width: 25%;
+      background-color: #fff;
+      padding: 2%;
+      margin-top: 2%;
+    }
+  
+    .service-block{
+      margin-left: 5%;
+      margin-right: 5%;
+      display: flex;
+      justify-content: space-around;
+      flex-flow: row wrap;
+      padding-bottom: 5%;
+    }
+   
+    .offers{
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-image: url('../img/pricing_bg.jpg');
+      
+    }
+  
+    .pricing-title{
+      text-align: center;
+      font-size: 30px;
+  
+    }
+  
+    .offers-block{
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+      margin-top: 5%;
+      padding-bottom: 10%;
+    }
+    .offer-item{
+      text-align: center;
+      width: 25%;
+      background-color: #4ed5f7;
+      color: #fff;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      
+    }
+   
+    .offer-item-title{
+      font-size: 20px;
+    }
+  
+    .offer-item-price{
+      font-size: 35px;
+      font-weight: bold;
+      margin-top: -15px;
+    }
+  
+    .offer-item-button{
+      text-align: center;
+      background-color: #fff;
+      color: #0078aa;
+      border: 2px solid #0078aa;
+      height: 40px;
+      width: 20%;
+      border-radius: 20%;
+      font-weight: bold;
+    }
+  
+    .offer-item-button:hover{
+      background-color: #0078aa;
+      color: #fff;
+      border: 2px solid #fff;
+    }
+  
+    .offer-item-white{
+      text-align: center;
+      width: 30%;
+      background-color: #fff;
+      color: #0078aa;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      border: 3px solid #0078aa;
+      margin-top: -25px;
+      margin-bottom: -25px;
+    }
+  
+    .contact{
+      display: flex;
+      
+      
+    }
+  
+    .contact-form{
+      padding: 5%;
+      margin-top: 3%;
+    }
+      
+    
+  
+    .form-item{
+      line-height: 30px;
+      width: 180%;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      padding-top: 5%;
+    }
+  
+    .form-button{
+      text-align: center;
+      background-color: #0078aa;
+      color: #fff;
+      border: 2px solid #0078aa;
+      height: 40px;
+      width: 50%;
+      border-radius: 20%;
+      font-weight: bold;
+      margin: 3%;
+    }
+  
+    .form-button:hover{
+      background-color: #fff;
+      color: #0078aa;
+      
+    }
+  
+    footer{
+      background-color: #363636;
+      text-align: center;
+      color: #fff;
+      padding: 1%;
+      
+    }
+  
+}
+
+@media screen and (min-width: 1280px)
+{
+  .branding{
+  margin: 1%;
+  }
+
+  .navigation{
+    float: right;
+    margin: 1%;
+  }
+
+  .navigation a{
+    display: inline-block;
+    color: #363636;
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+  }
+
+  .navigation a:hover{
+    color: #0078aa;
+  }
+
+  .header-menu{
+    height: 50px;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    display: block;
+  }
+
+  
+ 
+  .header-info{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/header_bg.jpg');
+    border-radius: 0 0 38%;
+    display: block;
+    height: 750px;
+    margin-top: 4%;
+    padding-left: 20%;
+  }
+
+  .header-info h3{
+    width: 30%;
+    text-align: left;
+    padding-top: 20%;
+    font-size: 30px;
+  }
+   
+  .header-menu img{
+    padding-left: 20%;
+  }
+
+  .header-menu nav{
+    padding-right: 20%;
+  }
+
+  .header-info p{
+    
+    width: 35%;
+  }
+
+
+  .header-button{
+    width: 50px;
+    height: 50px;
+    background-color: #0078aa;
+    border-radius: 50%;
+    border-color: #0373a3;
+    margin-left: 2%;
+  }
+  .fa-w-16{
+    padding-top: 10%;
+    height: 80%;
+    width: 80%;
+    color: #fff;
+  }
+
+  .header-button:hover{
+    background-color: #fff;
+    border-color: #0078aa;
+  }
+
+  .fa-w-16:hover{
+    color: #0078aa;
+  }
+  .about{
+    display: inline;
+    padding-left: 10px;
+    padding-bottom: 5%;
+  }
+
+  .about img{
+    float: left;
+  }
+
+  .about h4{
+    padding-top: 3%;
+    font-size: 25px;
+    
+  }
+
+  .about-info{
+    list-style: none;
+  }
+
+  .about-title{
+    color: #0078aa;
+  }
+
+  .icon-arrow{
+    color: #0078aa;
+  }
+
+  .section-title{
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .sub-info{
+    width: 75%;
+  }
+
+  .icon-title{
+    font-size: 13px;
+  }
+
+  .servise{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/services_bg.jpg');
+    
+  }
+
+  .service-title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5%;
+    padding-top: 5%;
+  }
+
+  .service-sub, .pricing-sub{
+    text-align: center;
+    margin-top: -15px;
+  }
+
+  .service-item{
+    width: 25%;
+    background-color: #fff;
+    padding: 2%;
+    margin-top: 2%;
+  }
+
+  .service-block{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding-bottom: 5%;
+  }
+ 
+  .offers{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/pricing_bg.jpg');
+    
+  }
+
+  .pricing-title{
+    text-align: center;
+    font-size: 30px;
+
+  }
+
+  .offers-block{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-top: 5%;
+    padding-bottom: 10%;
+  }
+  .offer-item{
+    text-align: center;
+    width: 25%;
+    background-color: #4ed5f7;
+    color: #fff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+  }
+ 
+  .offer-item-title{
+    font-size: 20px;
+  }
+
+  .offer-item-price{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -15px;
+  }
+
+  .offer-item-button{
+    text-align: center;
+    background-color: #fff;
+    color: #0078aa;
+    border: 2px solid #0078aa;
+    height: 40px;
+    width: 20%;
+    border-radius: 20%;
+    font-weight: bold;
+  }
+
+  .offer-item-button:hover{
+    background-color: #0078aa;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+
+  .offer-item-white{
+    text-align: center;
+    width: 30%;
+    background-color: #fff;
+    color: #0078aa;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border: 3px solid #0078aa;
+    margin-top: -25px;
+    margin-bottom: -25px;
+  }
+
+  .contact{
+    display: flex;
+    
+    
+  }
+
+  .contact-form{
+    padding: 5%;
+    margin-top: 3%;
+  }
+    
+  
+
+  .form-item{
+    line-height: 30px;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 5%;
+  }
+
+  .form-button{
+    text-align: center;
+    background-color: #0078aa;
+    color: #fff;
+    border: 2px solid #027aad;
+    height: 40px;
+    width: 35%;
+    border-radius: 20%;
+    font-weight: bold;
+    margin: 3%;
+  }
+
+  .form-button:hover{
+    background-color: #fff;
+    color: #0078aa;
+    
+  }
+
+  footer{
+    background-color: #363636;
+    text-align: center;
+    color: #fff;
+    padding: 1%;
+  }
+}
+

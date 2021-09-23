@@ -1,0 +1,197 @@
+*
+{ 
+    margin: 0; 
+    padding: 0; 
+} 
+body
+{ 
+    font: 25px "Arial Black", Arial, Sans-Serif; 
+} 
+  
+a    
+{ 
+    color: black; 
+    text-decoration: none; 
+    outline: none; 
+} 
+  
+#calculator      
+{ 
+    width: 225px; 
+    height: 325px; 
+    background-color: rgb(0, 0, 0);
+    position: relative; 
+    border-radius: 10px;
+    display: inline-block;
+} 
+  
+#display           
+{ 
+    background-color: antiquewhite;
+    
+    border: none; 
+    position: absolute;  
+    top: 15px; 
+    left: 15px; 
+    width: 197px; 
+    text-align: right; 
+    font: 35px "Arial Black", Arial, Sans-Serif; 
+} 
+                      
+.num-button         
+{ 
+    width: 44px; 
+    height: 41px; 
+    padding: 3px 0 0 0; 
+    text-align: center;  
+    background-color: rgb(70, 70, 236);
+    border: 1px solid black;
+    position: absolute; 
+    display: block; 
+} 
+.clear-button           
+{ 
+    width: 44px; 
+    height: 41px; 
+    padding: 3px 0 0 0; 
+    text-align: center;  
+    top: 70px; 
+    left: 111px; 
+    position: absolute; 
+    display: block; 
+    background-color: rgb(70, 70, 236);
+    border: 1px solid black;
+} 
+.function-button            
+{ 
+    width: 44px; 
+    height: 41px; 
+    padding: 3px 0 0 0; 
+    text-align: center;  
+    background-color: rgb(70, 70, 236);
+    border: 1px solid black;                
+    position: absolute; 
+    display: block; 
+} 
+.function-button:active, .pendingFunction            
+{ 
+    background-position: bottom left; 
+} 
+.zero{
+    top: 250px;
+    left: 63px;
+}
+.one{
+    top: 205px;
+    left: 111px;
+}
+
+.two{
+    top: 205px;
+    left: 63px;
+}
+
+.three{
+    top: 205px;
+    left: 15px;
+}
+.four
+{
+    top: 160px;
+    left: 111px;
+}
+
+.five
+{
+    top: 160px;
+    left: 63px;
+}
+
+.six{
+    top: 160px;
+    left: 15px;
+}
+.seven              
+{ 
+    top: 115px; 
+    left: 111px; 
+} 
+.eight              
+{ 
+    top: 115px; 
+    left: 63px; 
+} 
+.nine               
+{ 
+    top: 115px; 
+    left: 15px; 
+} 
+  
+/* ... the rest of the buttons ... */
+  
+.multiply           
+{ 
+    top: 115px; 
+    left: 160px; 
+} 
+.divide             
+{ 
+    top: 70px; 
+    left: 160px; 
+} 
+
+.add{
+    top: 160px;
+    left: 160px; 
+}
+  
+.subtract{
+    top: 205px;
+    left: 160px;
+}
+.equals-button          
+{ 
+    width: 44px; 
+    height: 41px; 
+    padding: 3px 0 0 0; 
+    text-align: center; 
+    top: 250px; 
+    left: 160px; 
+    position: absolute;  
+    display: block; 
+    background-color: rgb(70, 70, 236);
+    border: 1px solid black;
+}
+
+.circle{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid red;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.result-box{
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.remove-box{
+    display: inline-block;
+    margin: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#result-block{
+    display: inline-block;
+}
+
+.red-color{
+    background-color: red;
+    border: 2px solid red;
+}

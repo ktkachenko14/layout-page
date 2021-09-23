@@ -1,0 +1,24 @@
+$contentBackground: rgb(30, 30, 41);
+$imageBackground: url("../img/m-h-night.jpg");
+$colorText: #eeeff1;
+$textBackground: #d65731;
+$cardBackground: #595d70;
+$backgroundSection: linear-gradient(to right, #c4ac25 0%, #cc5031 100%);
+$greyText: #767985;
+$linkDecoration: underline;
+$buttonColor: #d3c82a;
+$colors: (
+    whiteColor: white
+);
+@mixin button-border($radius:5px){
+    border-radius: $radius;
+}
+@mixin linkParameters( $color) {
+    color: $color;
+}
+.colorBack {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    background-color: $textBackground;
+}

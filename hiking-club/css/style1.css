@@ -1,0 +1,207 @@
+.colorBack, .header_heading::before, .section_text::before, .section_banner .section_banner_text_wrap .section_banner_heading::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  background-color: #14A0C7; }
+
+body {
+  background-color: #fff; }
+
+.header {
+  height: 600px;
+  background-image: url("../img/m-h-day.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 0 0 38%;
+  color: #2C2F3C;
+  display: flex;
+  margin: auto;
+  position: relative;
+  font-family: 'Source Sans Pro', sans-serif;
+  border: none;
+  outline: none; }
+
+.landing-logo {
+  display: flex;
+  align-self: flex-start;
+  width: 15%;
+  flex-wrap: wrap;
+  margin-left: 120px;
+  font-size: 25px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  color: #2C2F3C;
+  font-weight: bold; }
+  .landing-logo img {
+    width: 80px; }
+  .landing-logo p {
+    margin-left: 10px;
+    margin-top: 10px; }
+  .landing-logo span {
+    display: block;
+    position: absolute;
+    font-weight: normal; }
+    .landing-logo span::first-line {
+      font-size: 15px;
+      margin-left: -30px; }
+
+.header_heading {
+  display: inline-block;
+  position: relative;
+  margin-left: 120px;
+  margin-top: 0px;
+  font-weight: bold;
+  width: 400px;
+  font-size: 55px;
+  font-family: 'Source Sans Pro', sans-serif;
+  z-index: +1; }
+  .header_heading::before {
+    top: 88px;
+    right: 170px;
+    width: 230px;
+    height: 45px; }
+
+.header_text {
+  margin-left: 120px;
+  display: block;
+  width: 37%;
+  margin-top: 0px; }
+
+.header_button {
+  margin-left: 120px;
+  background-color: #699900;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border-width: 0px;
+  font-size: 15px;
+  font-weight: bold; }
+
+.login {
+  margin: 200px;
+  color: white; }
+
+.section {
+  text-align: center; }
+
+.section_text {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  margin: 35px 0;
+  width: 400px;
+  color: #2C2F3C;
+  font-size: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600; }
+  .section_text::before {
+    top: 4px;
+    right: 60px;
+    width: 135px;
+    height: 30px; }
+
+.section_card_wrap {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.section_card {
+  width: 800px;
+  height: 100%;
+  background-color: #21232E;
+  color: white;
+  margin-top: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px; }
+  .section_cardimg {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px; }
+
+.section_card_heading {
+  font-weight: 700;
+  font-family: 'Hind', sans-serif;
+  align-items: center; }
+
+.section_card_text {
+  color: #767985;
+  padding: 5px;
+  text-align: left;
+  width: 450px;
+  margin-left: 80px; }
+
+.section_link {
+  color: #767985; }
+
+.footer {
+  position: relative;
+  display: flex;
+  align-self: flex-start;
+  flex-wrap: wrap;
+  background-color: #21232E;
+  height: 200px; }
+
+.footer-wrap {
+  max-width: 1200px;
+  margin: 35px auto;
+  display: flex;
+  justify-content: space-between; }
+  .footer-wrap .landing-logo {
+    display: flex;
+    align-self: flex-start;
+    width: 15%;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-left: 120px;
+    color: #767985;
+    font-family: 'Hind', sans-serif;
+    font-size: 20px; }
+
+.footer_text, .footer-cr {
+  margin-top: 50px;
+  margin-left: 25px;
+  color: #767985;
+  font-family: 'Hind', sans-serif;
+  font-size: 15px; }
+
+.section_banner {
+  align-items: center;
+  width: 900px;
+  display: flex;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  background: linear-gradient(to right, #679708 0%, #315fcc 100%);
+  margin-left: 270px;
+  margin-top: 25px;
+  transform: translateY(50%);
+  z-index: +1; }
+  .section_banner .section_banner_text_wrap {
+    text-align: left;
+    margin-left: 100px; }
+    .section_banner .section_banner_text_wrap .section_banner_heading {
+      font-weight: 800; }
+      .section_banner .section_banner_text_wrap .section_banner_heading::before {
+        top: 15px;
+        right: 705px;
+        width: 30px;
+        height: 20px; }
+    .section_banner .section_banner_text_wrap .section_banner_text {
+      color: whitesmoke;
+      font-size: 10px; }
+
+.section_banner_button {
+  margin-left: 350px;
+  background-color: #699900;
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  border-width: 0px;
+  font-size: 15px;
+  font-weight: bold; }
